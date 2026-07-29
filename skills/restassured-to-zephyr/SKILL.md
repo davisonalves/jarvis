@@ -25,7 +25,7 @@ When the user wants to upload JUnit test results to Zephyr Scale, follow this fl
 7. Run the bash script and provide feedback to the user about the upload status.
 
 # Bash script example
-```
+```bash
 #!/bin/bash
 
 if [ -z $1 ] || [ -z $2 ]
