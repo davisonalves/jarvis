@@ -19,7 +19,7 @@ When the user wants to upload JUnit test results to Zephyr Scale, follow this fl
    - If not available, tell the user to export one before running.
 6. Adjust a bash script that:
    - runs the selected Maven command
-   - finds XML files in target/<report-folder>/TEST*.xml
+   - finds XML files in `target/<report-folder>/TEST*.xml`
    - zips them
    - uploads the zip to Zephyr Scale using the project key
 7. Run the bash script and provide feedback to the user about the upload status.
